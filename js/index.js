@@ -54,7 +54,7 @@ checkElement1.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "https://lesson12jshomework.netlify.app/";
+                    window.location.reload() = "https://lesson12jshomework.netlify.app";
                 })
             } else {
                 img3.style.display = 'initial';
