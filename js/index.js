@@ -262,3 +262,5 @@ checkElement3.addEventListener('change', function(e){
     }
     // console.log(checkElement1.value);
 })
+
+let created = document.createElement('li')
