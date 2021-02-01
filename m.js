@@ -78,7 +78,7 @@ checkElement1.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
+                    window.location.href = "https://lesson12jshomework.netlify.app/";
                 })
             } else if (array2 == newArray[Math.floor(Math.random() * newArray.length)]){
                 img3.style.display = 'none';
@@ -87,13 +87,13 @@ checkElement1.addEventListener('change', function(e){
                 scissorsElement.style.display = 'initial';
 
                  // create congretulations
-                let result = document.createElement('div');
-                result.classList.add('result');
-                wrapperElement.appendChild(result);
-                let resultTextYesElement = document.createElement('p');
-                resultTextYesElement.textContent = 'Tabriklaymiz siz yutdingiz!';
-                result.appendChild(resultTextYesElement);
-                resultTextYesElement.classList.add('result-text');
+                 let result = document.createElement('div');
+                 result.classList.add('result');
+                 wrapperElement.appendChild(result);
+                 let resultTextYesElement = document.createElement('p');
+                 resultTextYesElement.textContent = 'Tabriklaymiz siz yutdingiz!';
+                 result.appendChild(resultTextYesElement);
+                 resultTextYesElement.classList.add('result-text');
 
                 // request to refresh 
                 const requestElement = document.createElement('p');
@@ -110,7 +110,7 @@ checkElement1.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
+                    window.location.href = "https://lesson12jshomework.netlify.app/";
                 })
             } else {
                 img3.style.display = 'initial';
@@ -141,8 +141,8 @@ checkElement1.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
-                })
+                 window.location.href = "https://lesson12jshomework.netlify.app/";
+             })
             }
         }
         appendToArray(imageElement1,imageElement2,imageElement3)
@@ -199,8 +199,8 @@ checkElement2.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
-                })
+                 window.location.href = "https://lesson12jshomework.netlify.app/";
+             })
 
             } else if (array1 == newArray[Math.floor(Math.random() * newArray.length)]){
                 img3.style.display = 'none';
@@ -209,13 +209,13 @@ checkElement2.addEventListener('change', function(e){
                 stoneElement.style.display = 'initial';
 
                  // create congretulations
-                let result = document.createElement('div');
-                result.classList.add('result');
-                wrapperElement.appendChild(result);
-                let resultTextYesElement = document.createElement('p');
-                resultTextYesElement.textContent = 'Afus siz yutqazdingiz!';
-                result.appendChild(resultTextYesElement);
-                resultTextYesElement.classList.add('result-text');
+                 let result = document.createElement('div');
+                 result.classList.add('result');
+                 wrapperElement.appendChild(result);
+                 let resultTextYesElement = document.createElement('p');
+                 resultTextYesElement.textContent = 'Afus siz yutqazdingiz!';
+                 result.appendChild(resultTextYesElement);
+                 resultTextYesElement.classList.add('result-text');
 
                 // request to refresh 
                 const requestElement = document.createElement('p');
@@ -232,7 +232,7 @@ checkElement2.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
+                    window.location.href = "https://lesson12jshomework.netlify.app/";
                 })
             } else {
                 img3.style.display = 'initial';
@@ -263,8 +263,8 @@ checkElement2.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
-                })
+                 window.location.href = "https://lesson12jshomework.netlify.app/";
+             })
             }
         }
         appendToArray(imageElement1,imageElement2,imageElement3)
@@ -276,8 +276,8 @@ checkElement2.addEventListener('change', function(e){
 
 // paper
 checkElement3.addEventListener('change', function(e){
-      if (checkElement3.checked) {
-        checkElement3.value = 1;
+  if (checkElement3.checked) {
+    checkElement3.value = 1;
         // random image
         function appendToArray(img1, img2,img3) {
             let newArray = []
@@ -321,20 +321,20 @@ checkElement3.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
-                })
+                 window.location.href = "https://lesson12jshomework.netlify.app/";
+             })
 
             } else if (array2 == newArray[Math.floor(Math.random() * newArray.length)]){
                 img2.style.display = 'none';
                 scissorsElement.style.display = 'none';
                  // create congretulations
-                let result = document.createElement('div');
-                result.classList.add('result');
-                wrapperElement.appendChild(result);
-                let resultTextYesElement = document.createElement('p');
-                resultTextYesElement.textContent = 'Tabriklaymiz siz yutdingiz!';
-                result.appendChild(resultTextYesElement);
-                resultTextYesElement.classList.add('result-text');
+                 let result = document.createElement('div');
+                 result.classList.add('result');
+                 wrapperElement.appendChild(result);
+                 let resultTextYesElement = document.createElement('p');
+                 resultTextYesElement.textContent = 'Tabriklaymiz siz yutdingiz!';
+                 result.appendChild(resultTextYesElement);
+                 resultTextYesElement.classList.add('result-text');
 
                 // request to refresh 
                 const requestElement = document.createElement('p');
@@ -351,7 +351,7 @@ checkElement3.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";
+                    window.location.href = "https://lesson12jshomework.netlify.app/";
                 })
             } else {
                 img2.style.display = 'initial';
@@ -382,7 +382,8 @@ checkElement3.addEventListener('change', function(e){
                 refreshButtonText.classList.add('refresh-text');
                 refreshButton.appendChild(refreshButtonText);
                 refreshButton.addEventListener('click', function(e){
-                    window.location.href = "file:///C:/webdev/Lessons/web_lessons/lesson_12_JS/index.html";                })
+                    window.location.href = "https://lesson12jshomework.netlify.app/";               
+                })
             }
         }
         appendToArray(imageElement1,imageElement2,imageElement3)
