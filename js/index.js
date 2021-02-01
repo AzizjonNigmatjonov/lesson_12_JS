@@ -1,6 +1,5 @@
 const bodyElement = document.querySelector('body');
 
-
 const wrapperElement = document.querySelector('.wrapper');
 const checkElement1 = document.querySelector('.stone-form .form-input');
 const checkElement2 = document.querySelector('.scissors-form .form-input');
@@ -262,5 +261,3 @@ checkElement3.addEventListener('change', function(e){
     }
     // console.log(checkElement1.value);
 })
-
-let created = document.createElement('li')
